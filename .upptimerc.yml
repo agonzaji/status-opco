@@ -6,7 +6,7 @@ repo: status-opco
 
 sites:
   - name: Platform
-    url: https://opco.platform-demo.net/api/health
+    url: https://opco.platform-demo.net/health
     icon: https://opco.platform-demo.net/images/logo-icon.png
     expectedStatusCodes:
       - 200
@@ -28,7 +28,7 @@ sites:
       - 200
 
   - name: API Voice
-    url: https://opco.platform-demo.net/api/health
+    url: https://opco.platform-demo.net/health
     expectedStatusCodes:
       - 200
 
