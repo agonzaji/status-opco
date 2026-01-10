@@ -17,7 +17,7 @@ sites:
       - 200
 
 status-website:
-  cname: status.opco.platform-demo.net
+  # cname: status.opco.platform-demo.net  # TODO: Enable when domain transfer completes
   logoUrl: https://opco.platform-demo.net/images/logo.png
   name: MasOrange OPCO Status
   introTitle: "Platform Status"
