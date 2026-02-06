@@ -6,27 +6,27 @@ repo: status-opco
 
 sites:
   - name: Platform
-    url: https://opco.platform-demo.net/health
-    icon: https://opco.platform-demo.net/images/logo-icon.png
+    url: https://demo.messaging-platform.com/health
+    icon: https://demo.messaging-platform.com/images/logo-icon.png
     expectedStatusCodes:
       - 200
 
   - name: API
-    url: https://opco.platform-demo.net/api/benchmark/health
+    url: https://demo.messaging-platform.com/api/benchmark/health
     expectedStatusCodes:
       - 200
 
 status-website:
-  # cname: status.opco.platform-demo.net  # TODO: Enable when domain transfer completes
-  logoUrl: https://opco.platform-demo.net/images/logo.png
+  # cname: status.demo.messaging-platform.com  # TODO: Enable when domain transfer completes
+  logoUrl: https://demo.messaging-platform.com/images/logo.png
   name: MasOrange OPCO Status
   introTitle: "Platform Status"
   introMessage: "Real-time status of MasOrange OPCO services."
   navbar:
     - title: Platform
-      href: https://opco.platform-demo.net
+      href: https://demo.messaging-platform.com
     - title: Support
-      href: https://opco.platform-demo.net/tickets.html
+      href: https://demo.messaging-platform.com/tickets.html
 
 workflowSchedule:
   graphs: "0 0 * * *"
