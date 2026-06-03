@@ -1,7 +1,7 @@
 url: https://demo.messaging-platform.com/health
-status: up
-code: 200
-responseTime: 718
-lastUpdated: 2026-06-03T14:10:50.347Z
+status: down
+code: 403
+responseTime: 673
+lastUpdated: 2026-06-03T22:16:35.473Z
 startTime: 2026-01-09T22:35:56.831Z
 generator: Upptime <https://github.com/upptime/upptime>
